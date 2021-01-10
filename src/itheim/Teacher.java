@@ -2,6 +2,9 @@ package itheim;
 
 public class Teacher extends User {
     private String zhiwei;
+    public Teacher(){
+        super(1111,"jhdkshfjk");
+    }
 
     public String getZhiwei() {
         return zhiwei;

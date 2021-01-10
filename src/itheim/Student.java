@@ -6,6 +6,7 @@ public class Student extends User {
     private String name;
     private String zhuangye;
     public Student(String  name,String zhuangye){
+        super(12432434,"3284798374");
         this.name=name;
         this.zhuangye = zhuangye;
 
