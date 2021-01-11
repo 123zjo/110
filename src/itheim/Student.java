@@ -31,6 +31,8 @@ public class Student extends User {
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
+                "password'" + getPassword() + '\'' +
+                "id='" + getId() + '\'' +
                 ", zhuangye='" + zhuangye + '\'' +
                 '}';
     }
